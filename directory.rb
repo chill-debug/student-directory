@@ -1,3 +1,4 @@
+ student_count = 11
 puts "The student of Villians Academy"
 puts "----------------"
 puts "Dr. Hannibal Lecter"
@@ -11,10 +12,7 @@ puts "Freddy Krueger"
 puts "The Joker"
 puts "Jeffrey Baraheon"
 puts "Norman Bates"
-
 # finally, we print the total number of students 
-
-print "Overall, we have"
 #it's important that print() doesn't add new line characters 
-print 11 
-puts "great students"
+# this is string interpolation 
+puts "Overall, we have #{student_count} great students"
